@@ -1,0 +1,64 @@
+.navbar-brand{
+    font-weight: 1000;
+}
+.form-select{
+    display: flex; 
+    justify-content: center;
+    max-width: 150px;
+    position: relative;
+    left: 15px;
+}
+.col-md-6{
+    display: flex;
+    justify-content: center;
+    max-width: 310px;
+    position: relative;
+    left: 50px;
+}
+.col-auto{
+    display: flex;
+    justify-self: center;
+    position: relative;
+    left: 38px;
+}
+.pagnation{
+    text-align: center;
+}
+.pagnation a{
+    color: #868686;
+    text-decoration: none;
+    padding: 9px 20px;
+    display: inline-block;
+}
+.pagnation a.active{
+     font-weight: bold;
+     color: black;
+     background-color: #e0e0e0;
+     border-radius: 5px;
+}
+.pagnation a:hover:not(.active){
+    font-weight: bold;
+    color: black;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+.nav_item{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+/* 기본 라이트 모드 스타일은 기존 스타일을 사용합니다. */
+
+/* 다크 모드 스타일 추가 */
+body.dark-mode {
+    background-color: #121212;
+    color: #7e7e7e;
+}
+
+/* 테이블 다크 모드 스타일 */
+body.dark-mode .table {
+    background-color: #333;
+    color: #7e7e7e;
+}
